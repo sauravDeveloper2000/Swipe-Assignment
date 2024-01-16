@@ -4,16 +4,15 @@ import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 /**
- * This represents the type of product which we get from server when we make network request.
- * Like what properties he has. Like in below case it has 5 fields or properties.
+ * This data class "NewProduct" is for when we add new product into server.
+ * like what properties he holds.
  */
 @Serializable
-data class Product(
-    val image: String,
-    val price: Double,
+data class NewProduct(
+    val price: String,
     @SerialName("product_name")
     val productName: String,
     @SerialName("product_type")
     val productType: String,
-    val tax: Double
+    val tax: String
 )

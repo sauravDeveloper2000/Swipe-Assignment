@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Swipe Assignment</string>
+    <string name="first_screen_top_app_bar">Products</string>
+    <string name="second_screen_top_app_bar">Add New Product</string>
+    <string name="add_new_product">Add New Product</string>
+    <string name="search">Search</string>
+    <string name="if_list_is_empty">No Product of this type or name is available!</string>
+    <string name="on_validation_succeed">Ok</string>
+    <string name="on_validation_failed">Try Again</string>
+    <string name="initial">Initial</string>
+    <string name="product_addition_status">Product Addition Status</string>
+    <string name="on_fail">Failed To Add</string>
+    <string name="add_product">Add Product</string>
 </resources>

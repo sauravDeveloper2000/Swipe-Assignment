@@ -4,7 +4,6 @@ plugins {
     id("org.jetbrains.kotlin.plugin.serialization") version "1.9.0"
     kotlin("kapt")
     id("com.google.dagger.hilt.android")
-
 }
 
 android {
@@ -90,9 +89,10 @@ dependencies {
 
     // Coil
     implementation("io.coil-kt:coil-compose:2.4.0")
+
+    //Logging Interceptor
+    implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
 }
-
-
 // Allow references to generated code
 kapt {
     correctErrorTypes = true
